@@ -1,0 +1,59 @@
+**README**
+
+Este é um sistema simples de previsão do tempo e informações de viagem que permite aos usuários pesquisar a previsão do tempo de uma determinada cidade e obter informações adicionais sobre o país, como população e PIB per capita. O sistema também fornece dados de câmbio para a moeda local do país pesquisado.
+
+Funcionalidades
+
+- Pesquisar a previsão do tempo de uma cidade específica.
+- Obter informações do país associado à cidade pesquisada, como população e PIB per capita.
+- Visualizar a taxa de câmbio para a moeda local do país pesquisado.
+
+Tecnologias Utilizadas
+
+- Backend: Node.js com Express.js
+- Frontend: React.js
+- Banco de Dados: Mysql
+
+Configuração
+
+1. Clone o repositório para o seu ambiente local.
+2. Certifique-se de ter o Node.js instalado em sua máquina.
+3. Navegue até a pasta raiz do projeto e execute o seguinte comando para instalar as dependências do backend:
+
+```
+npm install
+```
+
+4. Em seguida, navegue até a pasta `frontend` dentro do projeto e execute o seguinte comando para instalar as dependências do frontend:
+
+```
+npm install
+```
+
+5. Antes de executar o projeto, você precisará obter uma chave de API para acessar os serviços de previsão do tempo e taxa de câmbio. Você pode obter uma chave de API para previsão do tempo em [OpenWeatherMap](https://openweathermap.org/api) e uma chave de API para taxa de câmbio em [FastForex](https://www.fastforex.io/).
+
+```
+
+6. Inicie o servidor backend executando o seguinte comando na pasta raiz do projeto:
+
+```
+npm start
+```
+
+7. Em outra janela do terminal, navegue até a pasta `frontend'` dentro do projeto e inicie o servidor frontend:
+
+```
+npm start
+```
+
+8. Agora você pode acessar o sistema em `http://localhost:3000`.
+
+## Uso
+
+1. Na página inicial, insira o nome da cidade na caixa de pesquisa e clique no botão "Buscar" para obter a previsão do tempo e informações do país associado.
+
+## Observações
+
+- Se não houver resultados para a pesquisa, uma mensagem de erro será exibida na página.
+3.Crie uma base de dados para fazer registro de utilizadores 
+4.Se o utilizador nao estiver autenticado nao vem todas as informações
