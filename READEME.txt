@@ -12,7 +12,7 @@ Tecnologias Utilizadas
 
 - Backend: Node.js com Express.js
 - Frontend: React.js
-- Banco de Dados: Mysql
+- Base de Dados: Mysql
 
 Configuração
 
